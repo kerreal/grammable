@@ -11,6 +11,9 @@ require 'rails_helper'
 #   end
 # end
 RSpec.describe GramsController, type: :controller do
+
+
+
   describe "grams#show action" do
     it "should successfully show the page if the gram is found" do
       gram = FactoryBot.create(:gram)
